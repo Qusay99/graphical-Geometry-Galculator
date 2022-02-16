@@ -1,1 +1,1 @@
-# graphical-Geometry-Galculator
+# graphical-GeometryGalculator
