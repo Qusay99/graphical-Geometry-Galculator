@@ -1,7 +1,6 @@
 <script lang="ts">
-	import Home from "@/components/Home.svelte";
-	import GeomCalcu from "@/components/GeomCalcu.svelte"
-	import { fade } from "svelte/transition";
+	import Router from 'svelte-spa-router'
+	import routes from './routes'
   
 	let name = "World";
   </script>
@@ -42,10 +41,9 @@
 	  </div>
 	</nav>
   </header>
-  <main transition:fade>
-	<!-- <Home {name} /> -->
-	<GeomCalcu/>
-  </main>
+  
+  <!-- Show the router -->
+  <Router {routes} />
   
   <style>
 	main {
