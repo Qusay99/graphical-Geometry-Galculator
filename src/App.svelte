@@ -1,11 +1,13 @@
 <script lang="ts">
 	import Router from 'svelte-spa-router'
 	import routes from './routes'
+	import Navbar from './components/Navbar.svelte'
   
 	let name = "World";
 </script>
   
-  <header>
+<Navbar/>
+  <!-- <header>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 	  <div class="container-fluid">
 		<a class="navbar-brand" href="#">
@@ -40,28 +42,22 @@
 		</div>
 	  </div>
 	</nav>
-  </header>
+  </header> -->
   
 <!-- Show the router -->
-<Router {routes} />
+<main>
+	<Router {routes} />
+</main>
+
   
 <style>
 	main {
 		text-align: center;
 		padding: 0;
 		max-width: 240px;
-		margin: 0 auto;
+		margin: 0;
+		/* margin-top: -4%; */
 		height: 100%;
-	}
-
-	.icon{
-		/* width: calc(8px + 2vw);
-		height: calc(8px + 2vw); */
-		font-size: calc(12px + 2.5vw);
-		color: #df212e;
-		padding: 0.2vw;
-		border-radius: 50%;
-		text-align: center;
 	}
 
 	@media (min-width: 640px) {
