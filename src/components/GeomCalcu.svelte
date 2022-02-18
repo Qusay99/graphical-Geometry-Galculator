@@ -161,7 +161,7 @@
     .image-container{
         background: url('https://qusay99.github.io/graphical-GeometryGalculator/images/math-bg2.png') center no-repeat;
         /* background: url('./images/math-bg2.png') center no-repeat; */
-        background-size: 80%;
+        background-size: 80%; 
     }
     .form-container{
         background-color: rgba(196, 196, 196, 0.8);
