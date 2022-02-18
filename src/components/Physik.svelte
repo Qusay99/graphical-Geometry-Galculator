@@ -14,7 +14,8 @@
         height: 100%;
     }
     .image-container{
-        background: url('/images/physik-bg.png') center no-repeat;
+        background: url('https://qusay99.github.io/graphical-GeometryGalculator/images/physik-bg.png') center no-repeat;
+        /* background: url('./images/physik-bg.png') center no-repeat; */
         background-size: 55%;
     }
     .form-container{

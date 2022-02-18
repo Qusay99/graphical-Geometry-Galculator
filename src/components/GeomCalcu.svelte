@@ -159,7 +159,7 @@
         height: 100%;
     }
     .image-container{
-        background: url('/images/math-bg2.png') center no-repeat;
+        background: url('./images/math-bg2.png') center no-repeat;
         background-size: 80%;
     }
     .form-container{
