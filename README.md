@@ -1,4 +1,4 @@
-# graphical-GeometryGalculator
+# graphical geometry calculator
 Link of the web application: https://qusay99.github.io/graphical-GeometryGalculator/
 
 This module respectively web application is a part of a project that aims at providing useful packages/modules on [deno](https://deno.land/x). After I programmed and released a module that is able to calculate the perimeter, surface or even the volume of certain geometric shapes, I decided to create a graphical interface for the module. Which looks as on the screenshot below:
