@@ -151,7 +151,7 @@
                 </div>
             </div>
             <div class="mt-5">
-                <a class="navbar-brand" href="https://github.com/Qusay99/graphical-GeometryGalculator">
+                <a class="navbar-brand" href="https://github.com/Qusay99/graphical-GeometryCalculator">
                     <i class="fa-brands fa-github github-icon"></i>
                 </a>
             </div>
@@ -164,7 +164,7 @@
         height: 100%;
     }
     .image-container{
-        background: url('https://qusay99.github.io/graphical-GeometryGalculator/images/math-bg2.png') center no-repeat;
+        background: url('https://qusay99.github.io/graphical-GeometryCalculator/images/math-bg2.png') center no-repeat;
         /* background: url('./images/math-bg2.png') center no-repeat; */
         background-size: 80%; 
     }
