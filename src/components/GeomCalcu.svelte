@@ -147,8 +147,13 @@
                     <button class="btn btn-danger mx-auto" disabled={!a} type=submit on:click={handleClick}>
                         Berechnen
                     </button>
-                    <p class="mt-5">{@html result}</p>
+                    <p class="mt-5 mb-2">{@html result}</p>
                 </div>
+            </div>
+            <div class="mt-5">
+                <a class="navbar-brand" href="https://github.com/Qusay99/graphical-GeometryGalculator">
+                    <i class="fa-brands fa-github github-icon"></i>
+                </a>
             </div>
         </div>
     </div>
@@ -175,6 +180,18 @@
     .center-content{
         text-align: center;
     }
+	.github-icon{
+		position: sticky;
+    	bottom: 80vh;
+        /* left: 30%; */
+		font-size: calc(13px + 2vw);
+		color: #1d1d1db2;
+		padding: 0.2vw;
+		text-align: center;
+	}
+	.github-icon:hover{
+		color: #df212e;
+	}
     /* input[type=text]:disabled {
     background: #dddddd;
     } */
